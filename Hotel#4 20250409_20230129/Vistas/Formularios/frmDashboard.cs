@@ -19,6 +19,7 @@ namespace Vistas.Formularios
 
         private void frmDashboard_Load(object sender, EventArgs e)
         {
+            abrirForm(new frmUsuarios());
             ocultarSubMenu(false);
         }
 
@@ -30,6 +31,33 @@ namespace Vistas.Formularios
 
         #endregion
 
+
+        #region "Metodo para pintar formularios"
+        private Form activarForm = null;
+
+        private void abrirForm(Form formularioPintar)
+        {
+            if (activarForm != null)
+            //Esto nos ayuda a saber si existe un formulario activo para cerrarlo y que no quede sobrepuesto de otro
+            {
+                activarForm.Close();
+            }
+            //Aqui vamos a darle todos los permuisos que tiene un formulario o la clase form
+            activarForm = formularioPintar;
+            //Luego convertimos a un hijo de tipo de form
+            formularioPintar.TopLevel = false;
+            //Luego vamos a quitar bordes
+            formularioPintar.FormBorderStyle = FormBorderStyle.None;
+            formularioPintar.Dock = DockStyle.Fill;
+
+            pnlCentral.Controls.Add(formularioPintar);
+            formularioPintar.BringToFront();
+            formularioPintar.Show();
+        }
+
+        #endregion
+
+
         private void btnReservas_Click(object sender, EventArgs e)
         {
             if (pnlMenuReservas.Visible == false)
@@ -40,6 +68,11 @@ namespace Vistas.Formularios
             {
                 ocultarSubMenu(false);
             }
+        }
+
+        private void btnUsuarios_Click(object sender, EventArgs e)
+        {
+            abrirForm(new frmUsuarios());
         }
     }
 }

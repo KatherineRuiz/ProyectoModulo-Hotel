@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnIniciarSesion = new Vistas.Clases.RedondearBoton();
             this.txtClave = new System.Windows.Forms.TextBox();
             this.txtUsuario = new System.Windows.Forms.TextBox();
-            this.btnIniciarSesion = new Vistas.Clases.RedondearBoton();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -43,16 +43,33 @@
             this.panel1.Controls.Add(this.txtUsuario);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel1.Font = new System.Drawing.Font("Symbol", 8.25F);
-            this.panel1.Location = new System.Drawing.Point(380, 0);
+            this.panel1.Location = new System.Drawing.Point(384, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(387, 435);
+            this.panel1.Size = new System.Drawing.Size(383, 435);
             this.panel1.TabIndex = 0;
+            // 
+            // btnIniciarSesion
+            // 
+            this.btnIniciarSesion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(63)))), ((int)(((byte)(128)))));
+            this.btnIniciarSesion.BorderColor = System.Drawing.Color.Aquamarine;
+            this.btnIniciarSesion.BorderRadius = 30;
+            this.btnIniciarSesion.BorderSize = 0;
+            this.btnIniciarSesion.FlatAppearance.BorderSize = 0;
+            this.btnIniciarSesion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnIniciarSesion.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIniciarSesion.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnIniciarSesion.Location = new System.Drawing.Point(125, 330);
+            this.btnIniciarSesion.Name = "btnIniciarSesion";
+            this.btnIniciarSesion.Size = new System.Drawing.Size(146, 42);
+            this.btnIniciarSesion.TabIndex = 3;
+            this.btnIniciarSesion.Text = "Iniciar Sesión";
+            this.btnIniciarSesion.UseVisualStyleBackColor = false;
             // 
             // txtClave
             // 
             this.txtClave.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtClave.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtClave.Location = new System.Drawing.Point(140, 291);
+            this.txtClave.Location = new System.Drawing.Point(140, 293);
             this.txtClave.Name = "txtClave";
             this.txtClave.PasswordChar = '*';
             this.txtClave.Size = new System.Drawing.Size(154, 16);
@@ -68,28 +85,11 @@
             this.txtUsuario.TabIndex = 0;
             this.txtUsuario.WordWrap = false;
             // 
-            // btnIniciarSesion
-            // 
-            this.btnIniciarSesion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(46)))), ((int)(((byte)(84)))));
-            this.btnIniciarSesion.BorderColor = System.Drawing.Color.Aquamarine;
-            this.btnIniciarSesion.BorderRadius = 30;
-            this.btnIniciarSesion.BorderSize = 0;
-            this.btnIniciarSesion.FlatAppearance.BorderSize = 0;
-            this.btnIniciarSesion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnIniciarSesion.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnIniciarSesion.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnIniciarSesion.Location = new System.Drawing.Point(125, 330);
-            this.btnIniciarSesion.Name = "btnIniciarSesion";
-            this.btnIniciarSesion.Size = new System.Drawing.Size(146, 42);
-            this.btnIniciarSesion.TabIndex = 3;
-            this.btnIniciarSesion.Text = "Iniciar Sesión";
-            this.btnIniciarSesion.UseVisualStyleBackColor = false;
-            // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Vistas.Properties.Resources.login;
+            this.BackgroundImage = global::Vistas.Properties.Resources.nuevofondo;
             this.ClientSize = new System.Drawing.Size(767, 435);
             this.Controls.Add(this.panel1);
             this.MaximumSize = new System.Drawing.Size(783, 474);

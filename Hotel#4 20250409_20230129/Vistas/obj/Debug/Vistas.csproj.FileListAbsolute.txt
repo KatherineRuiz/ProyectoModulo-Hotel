@@ -23,3 +23,6 @@ C:\Users\garbr\OneDrive\Escritorio\Hotel_Evaluacion\Hotel#4 20250409_20230129\Vi
 C:\Users\garbr\OneDrive\Escritorio\Hotel_Evaluacion\Hotel#4 20250409_20230129\Vistas\obj\Debug\Vistas.exe
 C:\Users\garbr\OneDrive\Escritorio\Hotel_Evaluacion\Hotel#4 20250409_20230129\Vistas\obj\Debug\Vistas.pdb
 C:\Users\garbr\OneDrive\Escritorio\Hotel_Evaluacion\Hotel#4 20250409_20230129\Vistas\obj\Debug\Vistas.exe.config
+C:\Users\garbr\OneDrive\Escritorio\Hotel_Evaluacion\Hotel#4 20250409_20230129\Vistas\obj\Debug\Vistas.Formularios.frmUsuarios.resources
+C:\Users\garbr\OneDrive\Escritorio\Hotel_Evaluacion\Hotel#4 20250409_20230129\Vistas\obj\Debug\Vistas.Formularios.frmHabitaciones.resources
+C:\Users\garbr\OneDrive\Escritorio\Hotel_Evaluacion\Hotel#4 20250409_20230129\Vistas\obj\Debug\Vistas.Formularios.frmServicios.resources
