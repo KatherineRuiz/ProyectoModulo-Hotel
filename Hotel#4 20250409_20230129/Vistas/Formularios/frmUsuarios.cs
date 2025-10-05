@@ -22,6 +22,7 @@ namespace Vistas.Formularios
         private void frmUsuarios_Load(object sender, EventArgs e)
         {
             cargarRoles();
+            MostrarUsuarios();
         }
        
         

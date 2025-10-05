@@ -77,7 +77,7 @@ namespace Modelos.Entidades
             SqlCommand cmd = new SqlCommand(query, con);
 
             cmd.Parameters.AddWithValue("@Correo", correo);
-            MessageBox.Show("executeescalar" + cmd.ExecuteScalar());
+          
 
             if (cmd.ExecuteScalar() == null)
             {
@@ -99,7 +99,7 @@ namespace Modelos.Entidades
                 //Creamos un objeto conexion
                 SqlConnection conexion = Conexion.Conectar();
                 //Creamos la consulta y la enviamos a la base de datos 
-                string consultaQuery = "select Usuario.idUsuario As [N°], Usuario.correoUsuario As [Usuario], Rol.nombreRol As [Rol]," +
+                string consultaQuery = "select Usuario.idUsuario As [N°], Usuario.correoUsuario As [Usuario], Rol.nombreRol As [Rol]" +
                     "from Usuario" +
                     "\r\ninner join\r\nRol On Usuario.id_Rol = Rol.idRol";
                 SqlDataAdapter ad = new SqlDataAdapter(consultaQuery, conexion);
@@ -109,9 +109,9 @@ namespace Modelos.Entidades
 
                 return dt;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                MessageBox.Show("Este correo electrónico ya existe, ingrese uno distinto", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Fallo Insertar Datos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return null;
             }
             
