@@ -50,5 +50,12 @@ namespace Vistas.Formularios
                 MessageBox.Show("Error al registrar el usuario");
             }
         }
+
+        private void MostrarUsuarios()
+        {
+            dgvUsuarios.DataSource = null;
+            dgvUsuarios.DataSource = Usuario.CargarUsuario();
+        }   
+       
     }
 }

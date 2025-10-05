@@ -77,7 +77,7 @@ namespace Modelos.Entidades
             SqlCommand cmd = new SqlCommand(query, con);
 
             cmd.Parameters.AddWithValue("@Correo", correo);
-            MessageBox.Show("executeescalar" + cmd.ExecuteScalar());    
+            MessageBox.Show("executeescalar" + cmd.ExecuteScalar());
 
             if (cmd.ExecuteScalar() == null)
             {

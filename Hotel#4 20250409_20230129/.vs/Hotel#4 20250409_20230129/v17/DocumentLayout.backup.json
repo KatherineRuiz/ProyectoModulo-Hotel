@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\abrap\\OneDrive\\Documentos\\mini ptc 40%\\Ocupa\\ProyectoModulo-Hotel\\Hotel#4 20250409_20230129\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08B7C08F-CD84-4F0C-BAB5-235E234D427F}|Modelos\\Modelos.csproj|c:\\users\\abrap\\onedrive\\documentos\\mini ptc 40%\\ocupa\\proyectomodulo-hotel\\hotel#4 20250409_20230129\\modelos\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08B7C08F-CD84-4F0C-BAB5-235E234D427F}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{932CAA6E-6C04-424D-96AF-377A0D948B80}|Vistas\\Vistas.csproj|C:\\Users\\abrap\\OneDrive\\Documentos\\mini ptc 40%\\Ocupa\\ProyectoModulo-Hotel\\Hotel#4 20250409_20230129\\vistas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{932CAA6E-6C04-424D-96AF-377A0D948B80}|Vistas\\Vistas.csproj|solutionrelative:vistas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{932CAA6E-6C04-424D-96AF-377A0D948B80}|Vistas\\Vistas.csproj|C:\\Users\\abrap\\OneDrive\\Documentos\\mini ptc 40%\\Ocupa\\ProyectoModulo-Hotel\\Hotel#4 20250409_20230129\\vistas\\formularios\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{932CAA6E-6C04-424D-96AF-377A0D948B80}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{932CAA6E-6C04-424D-96AF-377A0D948B80}|Vistas\\Vistas.csproj|C:\\Users\\abrap\\OneDrive\\Documentos\\mini ptc 40%\\Ocupa\\ProyectoModulo-Hotel\\Hotel#4 20250409_20230129\\vistas\\formularios\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{932CAA6E-6C04-424D-96AF-377A0D948B80}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{932CAA6E-6C04-424D-96AF-377A0D948B80}|Vistas\\Vistas.csproj|C:\\Users\\abrap\\OneDrive\\Documentos\\mini ptc 40%\\Ocupa\\ProyectoModulo-Hotel\\Hotel#4 20250409_20230129\\vistas\\formularios\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{932CAA6E-6C04-424D-96AF-377A0D948B80}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{08B7C08F-CD84-4F0C-BAB5-235E234D427F}|Modelos\\Modelos.csproj|c:\\users\\abrap\\onedrive\\documentos\\mini ptc 40%\\ocupa\\proyectomodulo-hotel\\hotel#4 20250409_20230129\\modelos\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08B7C08F-CD84-4F0C-BAB5-235E234D427F}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{932CAA6E-6C04-424D-96AF-377A0D948B80}|Vistas\\Vistas.csproj|C:\\Users\\abrap\\OneDrive\\Documentos\\mini ptc 40%\\Ocupa\\ProyectoModulo-Hotel\\Hotel#4 20250409_20230129\\vistas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{932CAA6E-6C04-424D-96AF-377A0D948B80}|Vistas\\Vistas.csproj|solutionrelative:vistas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\abrap\\OneDrive\\Documentos\\mini ptc 40%\\Ocupa\\ProyectoModulo-Hotel\\Hotel#4 20250409_20230129\\Vistas\\Program.cs",
               "RelativeDocumentMoniker": "Vistas\\Program.cs",
@@ -42,39 +42,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\abrap\\OneDrive\\Documentos\\mini ptc 40%\\Ocupa\\ProyectoModulo-Hotel\\Hotel#4 20250409_20230129\\Modelos\\Entidades\\Usuario.cs",
               "RelativeDocumentMoniker": "Modelos\\Entidades\\Usuario.cs",
               "ToolTip": "C:\\Users\\abrap\\OneDrive\\Documentos\\mini ptc 40%\\Ocupa\\ProyectoModulo-Hotel\\Hotel#4 20250409_20230129\\Modelos\\Entidades\\Usuario.cs",
               "RelativeToolTip": "Modelos\\Entidades\\Usuario.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAswDoAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAswE0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-05T19:18:11.59Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "frmUsuarios.cs",
               "DocumentMoniker": "C:\\Users\\abrap\\OneDrive\\Documentos\\mini ptc 40%\\Ocupa\\ProyectoModulo-Hotel\\Hotel#4 20250409_20230129\\Vistas\\Formularios\\frmUsuarios.cs",
               "RelativeDocumentMoniker": "Vistas\\Formularios\\frmUsuarios.cs",
-              "ToolTip": "C:\\Users\\abrap\\OneDrive\\Documentos\\mini ptc 40%\\Ocupa\\ProyectoModulo-Hotel\\Hotel#4 20250409_20230129\\Vistas\\Formularios\\frmUsuarios.cs",
-              "RelativeToolTip": "Vistas\\Formularios\\frmUsuarios.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAIA/wBcAAAAaAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\abrap\\OneDrive\\Documentos\\mini ptc 40%\\Ocupa\\ProyectoModulo-Hotel\\Hotel#4 20250409_20230129\\Vistas\\Formularios\\frmUsuarios.cs*",
+              "RelativeToolTip": "Vistas\\Formularios\\frmUsuarios.cs*",
+              "ViewState": "AgIAABYAAAAAAAAAAAAtwBcAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T19:02:32.983Z"
+              "WhenOpened": "2025-10-05T19:02:32.983Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "frmUsuarios.cs [Design]",
               "DocumentMoniker": "C:\\Users\\abrap\\OneDrive\\Documentos\\mini ptc 40%\\Ocupa\\ProyectoModulo-Hotel\\Hotel#4 20250409_20230129\\Vistas\\Formularios\\frmUsuarios.cs",
               "RelativeDocumentMoniker": "Vistas\\Formularios\\frmUsuarios.cs",
-              "ToolTip": "C:\\Users\\abrap\\OneDrive\\Documentos\\mini ptc 40%\\Ocupa\\ProyectoModulo-Hotel\\Hotel#4 20250409_20230129\\Vistas\\Formularios\\frmUsuarios.cs [Design]",
-              "RelativeToolTip": "Vistas\\Formularios\\frmUsuarios.cs [Design]",
+              "ToolTip": "C:\\Users\\abrap\\OneDrive\\Documentos\\mini ptc 40%\\Ocupa\\ProyectoModulo-Hotel\\Hotel#4 20250409_20230129\\Vistas\\Formularios\\frmUsuarios.cs [Design]*",
+              "RelativeToolTip": "Vistas\\Formularios\\frmUsuarios.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T19:10:47.549Z"
+              "WhenOpened": "2025-10-05T19:10:47.549Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
