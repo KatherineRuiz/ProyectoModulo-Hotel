@@ -1,4 +1,4 @@
-﻿using Modelos.Conexion;
+﻿using Modelos;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Modelos.Entidades
 {
-    internal class Rol
+    public class Rol
     {
         //Declaramos los atributos de la clase
         private int idRol;
@@ -22,7 +22,7 @@ namespace Modelos.Entidades
         public static DataTable CargarRol()
         {
             //Creamos un objeto conexion
-            SqlConnection conexion = Conexion.Conexion.Conectar();
+            SqlConnection conexion = Conexion.Conectar();
             //Creamos la consultaQuery y la enviamos a la base de datos
             string consultaQuery = "select*from Rol;";
             SqlDataAdapter add = new SqlDataAdapter(consultaQuery, conexion);

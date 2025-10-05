@@ -4,27 +4,24 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 using System.Windows.Forms;
 
-namespace Modelos.Conexion
+
+namespace Modelos
 {
     public class Conexion
     {
-        private static string servidor = "DESKTOP-URTJUTM\\SQLEXPRESS";
-        private static string baseDeDatos = "Hotel";
+        private static string servidor = "abra\\SQLEXPRESS";
+        private static string basedeDatos = "HotelEvaluacion";
+
 
         public static SqlConnection Conectar()
         {
             try
             {
-                //creamos una cadena de conexion
-                string cadena =
-                    $"Data Source = {servidor},54321;Initial Catalog = {baseDeDatos};Integrated Security = true;";
-
-                //Creamos un objeto de tipo SqlConnection
+                string cadena = $"Data Source= {servidor}; Initial Catalog={basedeDatos}; Integrated Security=true;";
                 SqlConnection con = new SqlConnection(cadena);
-
-                //Abrimos la conexion entre SQL Server y nuestra aplicacion
                 con.Open();
                 return con;
             }

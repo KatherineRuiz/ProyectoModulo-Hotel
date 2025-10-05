@@ -42,7 +42,6 @@ go
 
 Create table Usuario (
     idUsuario int identity(1,1) primary key,
-    nombreUsuario varchar(50) not null,
     correoUsuario varchar(60) not null,
     clave varchar(100) not null,
     id_Rol int not null,
@@ -91,3 +90,13 @@ Create table ServicioReserva (
     constraint fk_idServicio foreign key (id_Servicio) references Servicio(idServicio) on delete cascade
 );
 go
+
+-- inserciones --
+
+insert into Rol values 
+('Administrador'),
+('Recepcionista'),
+('Gerente');
+
+select *from Rol
+select *from Usuario
